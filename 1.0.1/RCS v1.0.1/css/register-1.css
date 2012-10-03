@@ -1,0 +1,63 @@
+#reg {
+	margin-right: auto;
+	margin-left: auto;
+}
+#reg table {
+	margin-right: auto;
+	margin-left: auto;
+}
+#reg td.box {
+	background-color: #382418;
+	border: 1px solid black;
+	color: #8B8589;
+}
+#reg td.cur {
+	background-color: #382418;
+	border: 2px outset #382418;
+	color: #ffbb22;
+}
+.formError {
+	color: red;
+}
+.usernameSuccess {
+	color: green;
+}
+.usernameLoading {
+	color: yellow;
+}
+
+.buttons { 
+	width: 200px; height: 110px; position: relative; margin: 0; 
+} 
+.buttons a{ 
+	display: block; 
+	position: absolute; 
+	width: 180px; 
+	height: 80px; 
+	margin: 5px; 
+	background: #808080; 
+	font-weight: bold; 
+	color: white; 
+	text-align: center; 
+	border: 5px outset #909090;
+} 
+.buttons a:hover { 
+	background: #A0A0A0; 
+	border-color: #ffffff
+} 
+#playbutton span.lev1 { 
+	background-image: url('https://secure.rs-2007.com/img/doublebutton_play.gif');
+} 
+a:hover span.lev1 { 
+	background-position: 0 100px;
+}
+span.lev1 { 
+	display: block; 
+	cursor: pointer; 
+	cursor: hand; 
+	position: absolute; 
+	top: -10px; 
+	left: -10px; 
+	width: 200px; 
+	height: 100px;
+} 

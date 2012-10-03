@@ -1,0 +1,86 @@
+
+
+
+
+
+
+.topimg { margin-left: 10px; width: 200px; height: 100px;} 
+.left { float: left; } 
+.right { text-align: right; } 
+fieldset { background-color: black; } 
+fieldset.menu { border: 2px solid #382418; width: 260px; margin: 0 0 10px 0; display: block; padding: 0 5px 5px 5px; background-position: bottom right; background-repeat: no-repeat; } 
+fieldset.menu.rs { background-image: url('../../img/title2/rsicon.gif'); }
+fieldset.menu.help { background-image: url('../../img/title2/gamehelp.gif'); }
+fieldset.menu.poll { background-image: url('../../img/title2/poll.gif'); }
+fieldset.menu.web { background-image: url('../../img/title2/webfeat.gif'); }
+fieldset.menu.mem { background-image: url('../../img/title2/membership.gif'); }
+fieldset.menu.acc { background-image: url('../../img/title2/accman.gif'); }
+fieldset.menu.rec { background-image: url('../../img/title2/accrec.gif'); }
+fieldset.menu.pmod { background-image: url('../../img/title2/pmod.gif'); }
+fieldset.menu legend { font-weight: bold; color: white;} 
+fieldset.menu ul { padding: 0; margin: 0;}  
+fieldset.menu ul li { list-style: square inside; width: 220px; }
+fieldset.menu ul li.i-profile{ list-style-image: url('../../img/title2/silverkey.png'); }
+fieldset.menu ul li.i-crown { list-style-image: url('../../img/title2/icon_crown_gold.gif'); }
+fieldset.menu ul li.i-create { list-style-image: url('../../img/title2/create.gif'); }
+fieldset.menu ul li.i-play { list-style-image: url('../../img/title2/play.gif'); }
+fieldset.menu ul li.i-screen { list-style-image: url('../../img/title2/screenshot.gif'); }
+fieldset.menu ul li.i-beta { list-style-image: url('../../img/title2/beta.gif'); }
+fieldset.menu ul li.i-globe { list-style-image: url('../../img/title2/globe.gif'); }
+fieldset.menu ul li.i-answer { list-style-image: url('../../img/title2/get_answer.gif'); }
+fieldset.menu ul li.i-started { list-style-image: url('../../img/title2/get_started.gif'); }
+fieldset.menu ul li.i-rules { list-style-image: url('../../img/title2/rules.gif'); }
+fieldset.menu ul li.i-manual { list-style-image: url('../../img/title2/manual.gif'); }
+fieldset.menu ul li.i-quest { list-style-image: url('../../img/title2/questhelp.gif'); }
+fieldset.menu ul li.i-parents { list-style-image: url('../../img/title2/parents_icon_small.gif'); }
+fieldset.menu ul li.i-safety { list-style-image: url('../../img/title2/safety_guidelines.gif'); }
+fieldset.menu ul li.i-support { list-style-image: url('../../img/title2/customer_support.gif'); }
+fieldset.menu ul li.i-comment { list-style-image: url('../../img/title2/quill.gif'); }
+fieldset.menu ul li.i-bug { list-style-image: url('../../img/title2/report_bug.gif'); }
+fieldset.menu ul li.i-vote { list-style-image: url('../../img/title2/vote.gif'); }
+fieldset.menu ul li.i-polls { list-style-image: url('../../img/title2/vote_grey.gif'); }
+fieldset.menu ul li.i-world { list-style-image: url('../../img/title2/worldmap.gif'); }
+fieldset.menu ul li.i-twitter { list-style-image: url('../../img/title2/twitter.png'); }
+fieldset.menu ul li.i-youtube { list-style-image: url('../../img/title2/youtube.png'); }
+fieldset.menu ul li.i-score { list-style-image: url('../../img/title2/hiscore.gif'); }
+fieldset.menu ul li.i-forum { list-style-image: url('../../img/title2/comment.gif'); }
+fieldset.menu ul li.i-story { list-style-image: url('../../img/title2/stories.gif'); }
+fieldset.menu ul li.i-files { list-style-image: url('../../img/title2/extra_files.gif'); }
+fieldset.menu ul li.i-shop { list-style-image: url('../../img/title2/shop.gif'); }
+fieldset.menu ul li.i-member { list-style-image: url('../../img/title2/membership_benefits.gif'); }
+fieldset.menu ul li.i-sub { list-style-image: url('../../img/title2/dollar.gif'); }
+fieldset.menu ul li.i-subext { list-style-image: url('../../img/title2/dollar_plus.gif'); }
+fieldset.menu ul li.i-subcan { list-style-image: url('../../img/title2/dollar_grey.gif'); }
+fieldset.menu ul li.i-msg { list-style-image: url('../../img/title2/messages.gif'); }
+fieldset.menu ul li.i-pw { list-style-image: url('../../img/title2/password.gif'); }
+fieldset.menu ul li.i-recset { list-style-image: url('../../img/title2/set_recovery.gif'); }
+fieldset.menu ul li.i-reccan { list-style-image: url('../../img/title2/cancel_recovery.gif'); }
+fieldset.menu ul li.i-rec { list-style-image: url('../../img/title2/recover.gif'); }
+fieldset.menu ul li.i-track { list-style-image: url('../../img/title2/track.gif'); }
+fieldset.menu ul li.i-appeal { list-style-image: url('../../img/title2/appeal_ban.gif'); }
+fieldset.menu ul li.i-pmod { list-style-image: url('../../img/title2/pmod_icon.gif'); }
+.news dd { padding: 0 0 1em 0; margin: 0; height: 50px;} 
+dl.news>dd {
+ height: auto;
+ min-height: 50px;
+}
+.news dt { font-weight: bold; clear: right;} 
+.newsdate { float: right; } 
+.news a { margin-top: 0.5em; } 
+.newscontainer { margin-left: 290px; margin-bottom: 110px; } 
+img { border: 0; } 
+.buttons { width: 457px; height: 110px; position: relative; margin: 0; } 
+.buttons a{ display: block; position: absolute; width: 180px; height: 80px; margin: 5px; background: #808080; font-weight: bold; color: white; text-align: center; border: 5px outset #909090;} 
+.buttons a:hover { background: #A0A0A0; border-color: #ffffff} 
+#button-left {left: 15px; top: 0px;} 
+#button-left span.lev1 {background-image: url('../../img/title2/doublebutton_create.gif');} 
+#button-right {right: 15px; top: 0px;} 
+#button-right span.lev1 { background-image: url('../../img/title2/doublebutton_play.gif');} 
+#button-left span.beta {background-image: url('../../img/title2/doublebutton_beta.gif');} 
+span.lev1,span.beta { display: block; cursor: pointer; cursor: hand; position: absolute; top: -10px; left: -10px; width: 200px; height: 100px;} 
+a:hover span.lev1 { background-position: 0 100px;}
+a:hover span.beta { background-position: 0 100px;}
+*+html fieldset.menu {display:block; margin-top:15px; padding-top:10px; position:relative;}
+* html fieldset.menu {display:block; margin-top:15px; padding-top:10px; position:relative;}
+*+html fieldset.menu legend {position:absolute; top:-7px;} 
+* html fieldset.menu legend {position:absolute; top:-7px;} 

@@ -1,0 +1,9 @@
+Changelog
+*You can now specify where the "play" button goes for LOGGED IN USERS, it will always redirect to login.php for guests/people not logged in
+*Added the ability to delete specific forums
+*Added member only forums (guests >can't< see it/browse in it/post in it)
+*Added login button while in maintenance mode so you can get back in to turn it off, finally
+*Added the ability to send messages to all users at once (mass message) - members can't reply to mass messages
+*Added a user list in the ACP so you can now browse through all the registered users
+*Fixed BBCodes (also added more) to no longer be case-sensitive
+*Fixed several bugs regarding links (maintenance and moderator nav bar when viewing a thread)

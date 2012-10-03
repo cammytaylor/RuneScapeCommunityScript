@@ -1,0 +1,60 @@
+/* 
+    Document   : highscores
+    Created on : Jul 2, 2012, 9:22:00 AM
+    Author     : Justin
+    Description:
+        To make the highscores sexy? duh.
+*/
+
+#content_holder{
+    width:100%;
+}
+
+#scores {
+    vertical-align: top;
+    margin-right:auto;
+    margin-left:auto;
+    width:40%;
+}
+
+#buttons {
+    vertical-align: top;
+    width:40%;
+}
+
+.navbar{
+    float:left;
+    width:22%;
+}
+
+#navbarbg{
+    text-align:center;
+    vertical-align: top;
+    margin-left:auto;
+    margin-right:auto;
+    width:114px;
+}
+
+.navbar ul{
+    padding-left: 2px;
+    margin-left: -2px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navbar li{
+    text-align:left;
+    margin:0px;
+    padding:0px;
+    background-image:url('../img/highscores/derp.png');
+    background-repeat:repeat-y;
+    border-right:1px solid black; 
+    border-left:1px solid black;
+}
+
+.buttons{
+    
+}

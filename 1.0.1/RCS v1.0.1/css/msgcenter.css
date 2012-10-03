@@ -1,0 +1,39 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 653px;
+    height: 72px;
+    background-image: url('../img/msgcenter/header.gif');  
+}
+
+.msg_titleframe { width: 225px; margin-left: auto; margin-right: auto; padding: 4px; text-align: center; background-color:black; border:2px solid #382418;}
+
+#msg_c_container {
+    width:764px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#t_container {
+    width:762px;
+    border:1px solid #E6C18A;
+    text-align:center;
+}
+
+#t_container_bottom {
+    width:761px;
+    background-color:#45372A;
+}
+
+#t_container td{
+    border-right:1px solid #100F0A;
+}
+
+#navbar{
+    
+}
+
+#navbar ul{
+    display: inline;
+    list-style-type: none; 
+}

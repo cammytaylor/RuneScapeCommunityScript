@@ -1,0 +1,16 @@
+<script type="text/javascript">
+document.getElementById("smilytxt").style.display="";
+	function addsmiley(code) {
+		var msgtext=document.getElementById("charlimit_text_a");
+		msgtext.focus();
+		if (document.selection && document.selection.createRange && !msgtext.setSelection) { 
+			document.selection.createRange().text=code; 
+		} else {
+			var pretext = msgtext.value.substring(0,msgtext.selectionStart);
+			var pos = msgtext.selectionStart;
+			var posttext = msgtext.value.substring(msgtext.selectionEnd, msgtext.value.length);
+			msgtext.value = pretext + code + posttext;
+			msgtext.selectionEnd=pos+code.length;
+		}
+	}
+</script>

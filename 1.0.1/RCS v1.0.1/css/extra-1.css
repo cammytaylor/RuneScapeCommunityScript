@@ -1,0 +1,27 @@
+
+
+
+
+
+
+  .b {border-style: outset; border-width:3pt; border-color:#6A5A42}
+  .b2 {border-style: outset; border-width:3pt; border-color:#570700}
+  .white {text-decoration:none; color:#FFFFFF;}
+  a.white:hover {text-decoration:underline}
+  .red {text-decoration:none; color:#E10505;}
+  a.red:hover {text-decoration:underline}
+  .lblue {text-decoration:none; color:#9DB8C3;}
+  a.lblue:hover {text-decoration:underline}
+  .dblue {text-decoration:none; color:#0D6083;}
+  a.dblue:hover {text-decoration:underline}
+  .yellow {text-decoration:none; color:#FFE139;}
+  a.yellow:hover {text-decoration:underline}
+  .green {text-decoration:none; color:#04A800;}
+  a.green:hover {text-decoration:underline}
+  .purple {text-decoration:none; color:#C503FD;}
+  a.purple:hover {text-decoration:underline}
+  .pink {text-decoration:none; color:#FAA8AA;}
+  a.pink:hover {text-decoration:underline}
+  a.grey {text-decoration:none; color:#C0C0C0;}
+  .grey {text-decoration:none; color:#C0C0C0;}
+  a.grey.hover {text-decoration:underline;}

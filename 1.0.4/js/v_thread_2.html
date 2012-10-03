@@ -1,0 +1,84 @@
+<script type="text/javascript">
+var alerted=false;
+function do_watch(msg, element, count, max, submit) {
+ try {
+  var stri=element.value.replace(/\r/g, "");
+  if(submit) if(stri.length>max) submit.disabled=true;
+  if(stri.length>max) {
+   if(msg==true && alerted==false) {
+    alert('You have gone over your character limit for this message');
+    alerted=true;
+   }
+   element.value=stri=stri.substring(0,max);
+  }
+  count.childNodes[0].nodeValue=max-stri.length;
+ }
+ catch(e) {}
+}
+function install_watch(msg, element, count, max, form, submit, reset) {
+ try {
+  element.onkeyup=function() {
+   do_watch(msg, element, count, max, submit);
+  };
+  element.onkeydown=function() {
+   do_watch(msg, element, count, max, submit);
+  };
+  element.onkeypress=function() {
+   do_watch(msg, element, count, max, submit);
+  };
+  element.onmousemove=function() {
+   do_watch(msg, element, count, max, submit);
+  };
+  element.onchange=function() {
+   do_watch(false, element, count, max, submit);
+  };
+  if(form) {
+   form.onsubmit=function() {
+    do_watch(msg, element, count, max, submit);
+   }; 
+  }
+  if(reset && form) {
+   reset.onclick=function() {
+    form.reset();
+    do_watch(msg, element, count, max, submit);
+   }
+  }
+  do_watch(false, element, count, max, submit);
+ }
+ catch(e) {}
+}
+var charlimiter_run=false;
+function install_charlimiters() {
+ if(charlimiter_run) return;
+ charlimiter_run=true;
+ try {
+  var textboxes=document.getElementsByTagName("textarea");
+  for(var i=0; i<textboxes.length; i++) install(textboxes[i]);
+  var inputs=document.getElementsByTagName("input");
+  for(var i=0; i<inputs.length; i++) install(inputs[i]);
+ }
+ catch(e) {}
+}
+function install(element) {
+ var textbox_id_len = new String("charlimit_text").length;
+ var text_id=element.id.toString();
+ if(text_id.match(/^charlimit_text/i) && text_id.length>=textbox_id_len) {
+  var identifier=text_id.substr(textbox_id_len);
+  var info=document.getElementById("charlimit_info" + identifier);
+  var count=document.getElementById("charlimit_count" + identifier);
+  var form=document.getElementById("charlimit_form" + identifier);
+  var submit=document.getElementById("charlimit_submit" + identifier);
+  var reset=document.getElementById("charlimit_reset" + identifier);
+  if(info && count) {
+   var msg=false;
+   if(identifier.match(/^_msg/i)) msg=true;
+   var max_val=parseInt(count.childNodes[0].nodeValue);
+   install_watch(msg, element, count, max_val, form, submit, reset);
+   info.style.display='inline';
+  }
+ }
+}
+if(window.addEventListener) window.addEventListener('load', install_charlimiters, true);
+else if(window.attachEvent) window.attachEvent('onload', install_charlimiters);
+else window.onload=install_charlimiters;
+</script>

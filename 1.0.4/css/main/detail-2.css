@@ -1,0 +1,59 @@
+
+
+
+
+
+
+div.detail_select {
+
+
+  width: 522px;
+  height: 668px;
+  background: url("../../img/playgame/detail.gif");
+
+  margin: auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+br.clear {  
+ clear: both; 
+}  
+div#plugin_box {
+ position: absolute;
+ text-align: center;
+ left: 36px;
+
+
+ top: 595px;
+ 
+ width: 450px;
+ color: white;
+ font-weight: bold;
+}
+select#plugin {
+ margin-top: 2px;
+ background-color: #B1977E;
+}
+.choose_detail {
+ position: absolute;
+
+
+ top: 154px;
+
+ width: 261px;
+ height: 134px; 
+}
+.high {
+ left:0px;
+}
+.low {
+ right:0px;
+}
+iframe.detail_advert {
+ position: absolute;
+ top: 306px;
+ left: 109px;
+}
+div.center_wrap {
+ text-align: center;
+}

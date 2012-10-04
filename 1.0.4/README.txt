@@ -1,4 +1,4 @@
-RuneScape Community Script was developed by Sub-Zero (or, Moparscape: SRBuckey5266 and RuneLocus: Justin H).
+RuneScape Community Script was developed by Sub-Zero  (or, Moparscape: SRBuckey5266 and RuneLocus: Justin H) and Ruby.
 
 http://www.rcscript.comlu.com for support, feedback, or concerns
 =========================================================================
